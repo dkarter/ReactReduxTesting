@@ -11,6 +11,11 @@ module.exports = {
     loaders: [{
       exclude: /node_modules/,
       loader: 'babel'
+    },
+    {
+      test: /\.js$/,
+      loader: 'eslint-loader',
+      exclude: /node_modules/,
     }]
   },
   resolve: {
