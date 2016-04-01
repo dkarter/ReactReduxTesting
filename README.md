@@ -1,11 +1,11 @@
-# ReduxSimpleStarter
+# ReactStackKit
 
 
 ### Getting Started
 
 ```
-$ git clone git@github.com:dkarter/ReduxSimpleStarter.git
-$ cd ReduxSimpleStarter
+$ git clone git@github.com:dkarter/ReduReactStackKit.git
+$ cd ReactStackKit
 $ npm install
 $ npm start
 ```
