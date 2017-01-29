@@ -6,8 +6,8 @@
 ```
 $ git clone git@github.com:dkarter/ReduReactStackKit.git
 $ cd ReactStackKit
-$ npm install
-$ npm start
+$ yarn install
+$ yarn start
 ```
 
 ### Acknowledgement
