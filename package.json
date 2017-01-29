@@ -7,7 +7,9 @@
   "scripts": {
     "start": "webpack-dev-server --progress --colors --inline",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "yarn run test -- --watch",
+    "build": "webpack --config=webpack.config.js --progress",
+    "build-production": "webpack --config=webpack.production.config.js"
   },
   "author": "",
   "license": "ISC",
