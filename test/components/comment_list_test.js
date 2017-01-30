@@ -8,7 +8,7 @@ describe('CommentList', () => {
       comments: ['great product', 'I did not like it'],
     };
     component = renderComponent(CommentList, null, props);
-  })
+  });
 
   it('shows an li for each comment', () => {
     expect(component.find('li.comment').length).to.eq(2)

@@ -1,0 +1,15 @@
+// vim: syntax=javascript sw=2 ts=2 et
+
+{
+  "parser": "babel-eslint",
+    "extends": "airbnb",
+    "rules": {
+      "arrow-body-style": "off",
+      "jsx-a11y/no-static-element-interactions": 0,
+    },
+    "globals": {
+    },
+    "env": {
+      "browser": true,
+    },
+}
