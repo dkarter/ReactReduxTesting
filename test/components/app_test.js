@@ -8,7 +8,11 @@ describe('App' , () => {
     component = renderComponent(App);
   });
 
-  it('renders something', () => {
-    expect(component).to.exist;
+  it('displays a comment box', () => {
+    expect(component.find('.comment-box')).to.exist;
+  });
+
+  it('displays a comment list', () => {
+    expect(component.find('.comment-list')).to.exist;
   });
 });
